@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif ;
+}
+body{
+    background: linear-gradient(120deg,yellow,blue);
+    width:100%;
+}
+.card{
+    background-color: white;
+    color:black;
+    margin: 100px auto;
+    width:40%;
+   text-align: center;
+    
+}
+.switch{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+.switch div{
+    padding:4px;
+    width:55px;
+    font-weight: bold;
+    border:1px solid blue;
+    
+}
+.switch div:hover{
+    background-color: aquamarine;
+    transition: 0.4s ease;
+}
+.turn{
+    background-color: aquamarine;
+}
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin: 50px auto;
+    width: 300px;
+    height: 300px;
+}
+.board div{
+    width: 100px;
+    height: 100px;
+    padding-top: 25px;
+    font-size: 2rem;
+    background-color: #f0f0f0; 
+    border: 1px solid #000; 
+    
+}
+#restart{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding:2px 3px;
+    
+}
+#restart:hover{
+    background: linear-gradient(120deg,yellow,blue);
+    transition: 0.4s ease;
+    font-weight: bold;
+}
